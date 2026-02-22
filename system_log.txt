@@ -1,0 +1,5 @@
+INFO: System started
+WARNING: Low disk space
+ERROR: Failed login attempt
+INFO: User logged in
+ERROR: Failed login attempt
