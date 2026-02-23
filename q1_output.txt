@@ -1,0 +1,12 @@
+╔════════════════════════════════════════╗
+║        SYSTEM INFORMATION DISPLAY      ║
+╠════════════════════════════════════════╣
+║ Username        : monis
+║ Hostname        : Monesh
+║ Date & Time     : 2026-02-23 12:21:59
+║ OS              : Linux
+║ Current Dir     : /home/monis/Monesh_Bash_assingment
+║ Home Dir        : /home/monis
+║ Users Online    : 1
+║ Uptime          : up 1 hour, 11 minutes
+╚════════════════════════════════════════╝

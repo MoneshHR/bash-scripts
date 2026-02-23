@@ -1,0 +1,575 @@
+Script started on 2026-02-23 12:30:25+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="133" LINES="33"]
+[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ ./[7mq2_file_manager.sh[27mq2_file_manager.sh>q2_outputr[K.txt
+[?2004lEnter your choice: 1q2_file_manager.sh                   1
+Enter your choice: 2
+Enter directory name: test_ 
+Enter your choice: 3
+Enter file name: text1.txt
+Enter your choice: 5
+Enter old file name: text1.tct  xt
+Enter new file name: texr t.txt
+Enter your choice: 4
+Enter file name to delete: text.txt
+Are you sure? (y/n): y
+Enter your choice: 7
+Enter your choice: 8
+[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ nano q2_i[Koiu[K[Kutput.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;60H(B[0;7m[ Reading... ](B[m[31;59H(B[0;7m[ Read 96 lines ](B[m[H(B[0;7m  GNU nano 7.2                                                q2_output.txt                                                          [1;132H(B[m[32d(B[0;7m^G(B[m Help[32;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[32;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[32;113H(B[0;7mM-A(B[m Set Mark[33d(B[0;7m^X(B[m Exit[33;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[33;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[33;113H(B[0;7mM-6(B[m Copy[2d========== FILE & DIRECTORY MANAGER ==========[3d1. List files in current directory[4d2. Create a new directory[5d3. Create a new file[6d4. Delete a file[7d5. Rename a file[8d6. Search for a file[9d7. Count files and directories[10d8. Exit[11d==============================================[12dtotal 64K[13ddrwxr-xr-x 3 monis monis 4.0K Feb 23 12:27 Monesh_Bash_assingment[14ddrwxr-xr-x 2 monis monis 4.0K Feb 23 11:29 Monish[15ddrwxr-xr-x 2 monis monis 4.0K Feb 23 11:32 Query.sh[16d-rw-r--r-- 1 monis monis  399 Feb 23 11:46 access.log[17ddrwxr-xr-x 2 monis monis 4.0K Feb 23 11:53 bash_assignment[18d-rw-r--r-- 1 monis monis    0 Feb 23 11:51 file1.txt[19d-rw-r--r-- 1 monis monis    0 Feb 23 11:52 file2.txt[20d-rw-r--r-- 1 monis monis  714 Feb 23 12:21 q1_output.txt[21d-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:20 q1_system_info.sh[22d-rwxr-xr-x 1 monis monis 1.9K Feb 23 11:28 q2_file_manager.sh[23d-rw-r--r-- 1 monis monis  270 Feb 23 12:31 q2_output.txt[24d-rwxr-xr-x 1 monis monis  867 Feb 23 11:35 q3_log_analyzer.sh[25d-rw-r--r-- 1 monis monis  343 Feb 23 12:25 q3_output.txt[26d-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:49 q4_backup.sh[27d-rw-r--r-- 1 monis monis  231 Feb 23 12:27 q4_output.txt[28d-rw-r--r-- 1 monis monis 4.0K Feb 23 12:28 q5_output.txt[29d-rwxr-xr-x 1 monis monis 1.2K Feb 23 11:55 q5_user_report.sh[30ddrwxr-xr-x 2 monis monis 4.0K Feb 23 11:51 test_folder[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[31d[K[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HDirectory created successfully.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h[A[?25l[?12l[?25h[30d[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HFile created successfully.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HFile renamed successfully.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HFile deleted.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HTotal Files: 65[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HTotal Directories: 49[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HExiting...[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[26d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HFile renamed successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HFile created successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HDirectory created successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:51 test_folder[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.2K Feb 23 11:55 q5_user_report.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis 4.0K Feb 23 12:28 q5_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  231 Feb 23 12:27 q4_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:49 q4_backup.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  343 Feb 23 12:25 q3_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis  867 Feb 23 11:35 q3_log_analyzer.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  270 Feb 23 12:31 q2_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.9K Feb 23 11:28 q2_file_manager.sh[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:20 q1_system_info.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  714 Feb 23 12:21 q1_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis    0 Feb 23 11:52 file2.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis    0 Feb 23 11:51 file1.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:53 bash_assignment[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  399 Feb 23 11:46 access.log[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:32 Query.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:29 Monish[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 3 monis monis 4.0K Feb 23 12:27 Monesh_Bash_assingment[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Htotal 64K[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HDirectory created successfully.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h[A[?25l[?12l[?25h[30d[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HFile created successfully.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HFile renamed successfully.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HFile deleted.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HTotal Files: 65[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HTotal Directories: 49[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HExiting...[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[30d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[30d[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[22d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HFile renamed successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HFile created successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HDirectory created successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:51 test_folder[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.2K Feb 23 11:55 q5_user_report.sh[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis 4.0K Feb 23 12:28 q5_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  231 Feb 23 12:27 q4_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:49 q4_backup.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  343 Feb 23 12:25 q3_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis  867 Feb 23 11:35 q3_log_analyzer.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  270 Feb 23 12:31 q2_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.9K Feb 23 11:28 q2_file_manager.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:20 q1_system_info.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  714 Feb 23 12:21 q1_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis    0 Feb 23 11:52 file2.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis    0 Feb 23 11:51 file1.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:53 bash_assignment[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  399 Feb 23 11:46 access.log[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:32 Query.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:29 Monish[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 3 monis monis 4.0K Feb 23 12:27 Monesh_Bash_assingment[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Htotal 64K[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[A[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[32d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ ./[7mq2_output.txt[27mq2_output.txt
+[?2004lbash: ./q2_output.txt: Permission denied
+[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ chmod +x [7mq2_output.txt[27mq2_output.txt
+[?2004l[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ chmod +x q2_output.txt[7P./q2_output.txt
+[?2004lbash: ./q2_output.txt: Text file busy
+[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ ./q2_output.txtchmod +x q2_output.txt[7P./q2_output.txtnano q2_output.txt./q2_file_manager.sh>q2_output.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksh
+[?2004l========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 1
+total 124K
+drwxr-xr-x 3 monis monis 4.0K Feb 23 12:27 Monesh_Bash_assingment
+drwxr-xr-x 2 monis monis 4.0K Feb 23 11:29 Monish
+drwxr-xr-x 2 monis monis 4.0K Feb 23 11:32 Query.sh
+-rw-r--r-- 1 monis monis  399 Feb 23 11:46 access.log
+drwxr-xr-x 2 monis monis 4.0K Feb 23 11:53 bash_assignment
+-rw-r--r-- 1 monis monis    0 Feb 23 11:51 file1.txt
+-rw-r--r-- 1 monis monis    0 Feb 23 11:52 file2.txt
+-rw-r--r-- 1 monis monis  714 Feb 23 12:21 q1_output.txt
+-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:20 q1_system_info.sh
+-rwxr-xr-x 1 monis monis 1.9K Feb 23 11:28 q2_file_manager.sh
+-rwxr-xr-x 1 monis monis  56K Feb 23 12:37 q2_output.txt
+-rwxr-xr-x 1 monis monis  867 Feb 23 11:35 q3_log_analyzer.sh
+-rw-r--r-- 1 monis monis  343 Feb 23 12:25 q3_output.txt
+-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:49 q4_backup.sh
+-rw-r--r-- 1 monis monis  231 Feb 23 12:27 q4_output.txt
+-rw-r--r-- 1 monis monis 4.0K Feb 23 12:28 q5_output.txt
+-rwxr-xr-x 1 monis monis 1.2K Feb 23 11:55 q5_user_report.sh
+drwxr-xr-x 2 monis monis 4.0K Feb 23 12:32 test
+drwxr-xr-x 2 monis monis 4.0K Feb 23 11:51 test_folder
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 2
+Enter directory name: test1
+Directory created successfully.
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 3
+Enter file name: Query.sh
+File created successfully.
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 5
+Enter old file name: Query.sj h
+Enter new file name: Queryq 1.sh
+File does not exist!
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 5 4
+Enter file name to delete: Queryq 1.sh
+File does not exist!
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 5
+Enter old file name: 11  1
+Enter new file name: 1
+File does not exist!
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 7
+Total Files: 65
+Total Directories: 50
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 8
+Exiting...
+[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ ./q2_file_manager.sh
+[?2004l========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 6
+Enter file name pattern to search: q1_system_info.sh
+./q1_system_info.sh
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 8
+Exiting...
+[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ [7mgit remote add origin https://github.com/MoneshHR/Monesh_Bash_assingment.git[27m
+[7mgit branch -M main[27m
+[7mgit push -u origin main[27m[A[A]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ git remote add origin https://github.com/MoneshHR/Monesh_Bash_assingment.git
+git branch -M main
+git push -u origin main
+[?2004lerror: remote origin already exists.
+Enumerating objects: 18, done.
+Counting objects:   5% (1/18)Counting objects:  11% (2/18)Counting objects:  16% (3/18)Counting objects:  22% (4/18)Counting objects:  27% (5/18)Counting objects:  33% (6/18)Counting objects:  38% (7/18)Counting objects:  44% (8/18)Counting objects:  50% (9/18)Counting objects:  55% (10/18)Counting objects:  61% (11/18)Counting objects:  66% (12/18)Counting objects:  72% (13/18)Counting objects:  77% (14/18)Counting objects:  83% (15/18)Counting objects:  88% (16/18)Counting objects:  94% (17/18)Counting objects: 100% (18/18)Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects:  10% (1/10)Compressing objects:  20% (2/10)Compressing objects:  30% (3/10)Compressing objects:  40% (4/10)Compressing objects:  50% (5/10)Compressing objects:  60% (6/10)Compressing objects:  70% (7/10)Compressing objects:  80% (8/10)Compressing objects:  90% (9/10)Compressing objects: 100% (10/10)Compressing objects: 100% (10/10), done.
+Writing objects:   8% (1/12)Writing objects:  16% (2/12)Writing objects:  25% (3/12)Writing objects:  [31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HFile deleted.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HTotal Files: 65[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HTotal Directories: 49[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HExiting...[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[26d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HFile renamed successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HFile created successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HDirectory created successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:51 test_folder[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.2K Feb 23 11:55 q5_user_report.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis 4.0K Feb 23 12:28 q5_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  231 Feb 23 12:27 q4_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:49 q4_backup.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  343 Feb 23 12:25 q3_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis  867 Feb 23 11:35 q3_log_analyzer.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  270 Feb 23 12:31 q2_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.9K Feb 23 11:28 q2_file_manager.sh[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:20 q1_system_info.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  714 Feb 23 12:21 q1_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis    0 Feb 23 11:52 file2.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis    0 Feb 23 11:51 file1.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:53 bash_assignment[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  399 Feb 23 11:46 access.log[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:32 Query.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:29 Monish[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 3 monis monis 4.0K Feb 23 12:27 Monesh_Bash_assingment[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Htotal 64K[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HDirectory created successfully.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h[A[?25l[?12l[?25h[30d[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HFile created successfully.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HFile renamed successfully.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HFile deleted.[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HTotal Files: 65[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HTotal Directories: 49[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H1. List files in current directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H2. Create a new directory[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H3. Create a new file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H4. Delete a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H5. Rename a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H6. Search for a file[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H7. Count files and directories[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H8. Exit[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H==============================================[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1HExiting...[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[30d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[30d[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[22d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HFile renamed successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HFile created successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HDirectory created successfully.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:51 test_folder[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.2K Feb 23 11:55 q5_user_report.sh[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis 4.0K Feb 23 12:28 q5_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  231 Feb 23 12:27 q4_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:49 q4_backup.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  343 Feb 23 12:25 q3_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis  867 Feb 23 11:35 q3_log_analyzer.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  270 Feb 23 12:31 q2_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.9K Feb 23 11:28 q2_file_manager.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:20 q1_system_info.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  714 Feb 23 12:21 q1_output.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis    0 Feb 23 11:52 file2.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis    0 Feb 23 11:51 file1.txt[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:53 bash_assignment[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H-rw-r--r-- 1 monis monis  399 Feb 23 11:46 access.log[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:32 Query.sh[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 2 monis monis 4.0K Feb 23 11:29 Monish[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdrwxr-xr-x 3 monis monis 4.0K Feb 23 12:27 Monesh_Bash_assingment[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Htotal 64K[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H==============================================[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H8. Exit[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H7. Count files and directories[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H6. Search for a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H5. Rename a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H4. Delete a file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H3. Create a new file[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H2. Create a new directory[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H1. List files in current directory[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H========== FILE & DIRECTORY MANAGER ==========[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[A[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[32d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ ./[7mq2_output.txt[27mq2_output.txt
+[?2004lbash: ./q2_output.txt: Permission denied
+[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ chmod +x [7mq2_output.txt[27mq2_output.txt
+[?2004l[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ chmod +x q2_output.txt[7P./q2_output.txt
+[?2004lbash: ./q2_output.txt: Text file busy
+[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ ./q2_output.txtchmod +x q2_output.txt[7P./q2_output.txtnano q2_output.txt./q2_file_manager.sh>q2_output.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksh
+[?2004l========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 1
+total 124K
+drwxr-xr-x 3 monis monis 4.0K Feb 23 12:27 Monesh_Bash_assingment
+drwxr-xr-x 2 monis monis 4.0K Feb 23 11:29 Monish
+drwxr-xr-x 2 monis monis 4.0K Feb 23 11:32 Query.sh
+-rw-r--r-- 1 monis monis  399 Feb 23 11:46 access.log
+drwxr-xr-x 2 monis monis 4.0K Feb 23 11:53 bash_assignment
+-rw-r--r-- 1 monis monis    0 Feb 23 11:51 file1.txt
+-rw-r--r-- 1 monis monis    0 Feb 23 11:52 file2.txt
+-rw-r--r-- 1 monis monis  714 Feb 23 12:21 q1_output.txt
+-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:20 q1_system_info.sh
+-rwxr-xr-x 1 monis monis 1.9K Feb 23 11:28 q2_file_manager.sh
+-rwxr-xr-x 1 monis monis  56K Feb 23 12:37 q2_output.txt
+-rwxr-xr-x 1 monis monis  867 Feb 23 11:35 q3_log_analyzer.sh
+-rw-r--r-- 1 monis monis  343 Feb 23 12:25 q3_output.txt
+-rwxr-xr-x 1 monis monis 1.1K Feb 23 11:49 q4_backup.sh
+-rw-r--r-- 1 monis monis  231 Feb 23 12:27 q4_output.txt
+-rw-r--r-- 1 monis monis 4.0K Feb 23 12:28 q5_output.txt
+-rwxr-xr-x 1 monis monis 1.2K Feb 23 11:55 q5_user_report.sh
+drwxr-xr-x 2 monis monis 4.0K Feb 23 12:32 test
+drwxr-xr-x 2 monis monis 4.0K Feb 23 11:51 test_folder
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 2
+Enter directory name: test1
+Directory created successfully.
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 3
+Enter file name: Query.sh
+File created successfully.
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 5
+Enter old file name: Query.sj h
+Enter new file name: Queryq 1.sh
+File does not exist!
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 5 4
+Enter file name to delete: Queryq 1.sh
+File does not exist!
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 5
+Enter old file name: 11  1
+Enter new file name: 1
+File does not exist!
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 7
+Total Files: 65
+Total Directories: 50
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 8
+Exiting...
+[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ ./q2_file_manager.sh
+[?2004l========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 6
+Enter file name pattern to search: q1_system_info.sh
+./q1_system_info.sh
+========== FILE & DIRECTORY MANAGER ==========
+1. List files in current directory
+2. Create a new directory
+3. Create a new file
+4. Delete a file
+5. Rename a file
+6. Search for a file
+7. Count files and directories
+8. Exit
+==============================================
+Enter your choice: 8
+Exiting...
+[?2004h]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ [7mgit remote add origin https://github.com/MoneshHR/Monesh_Bash_assingment.git[27m
+[7mgit branch -M main[27m
+[7mgit push -u origin main[27m[A[A]0;monis@Monesh: ~/Monesh_Bash_assingment[01;32mmonis@Monesh[00m:[01;34m~/Monesh_Bash_assingment[00m$ git remote add origin https://github.com/MoneshHR/Monesh_Bash_assingment.git
+git branch -M main
+git push -u origin main
+[?2004lerror: remote origin already exists.
+Enumerating objects: 18, done.
+Counting objects:  

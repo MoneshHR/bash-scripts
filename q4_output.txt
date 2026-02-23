@@ -1,0 +1,9 @@
+========== AUTOMATED BACKUP SCRIPT ==========
+Backup Type:
+1. Simple Copy
+2. Compressed Archive (tar.gz)
+Backup completed successfully!
+File: backup_20260223_122716
+Location: Monesh_Bash_assingment
+Size: 4.0K
+Time taken: 0 seconds
